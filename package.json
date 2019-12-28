@@ -2,7 +2,7 @@
   "name": "ttms-web-promo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,8 @@
   "devDependencies": {
     "bootstrap": "^4.4.1",
     "node-sass": "^4.13.0",
-    "sass": "^1.24.0"
+    "sass": "^1.24.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
