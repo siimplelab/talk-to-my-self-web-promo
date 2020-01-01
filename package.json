@@ -12,6 +12,7 @@
   "devDependencies": {
     "bootstrap": "^4.4.1",
     "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
     "node-sass": "^4.13.0",
     "sass": "^1.24.0",
     "style-loader": "^1.1.2",

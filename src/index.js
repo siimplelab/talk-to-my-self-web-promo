@@ -1,5 +1,6 @@
 // import _ from 'lodash';
 import './style.css';
+import Icon from './icon.png';
 
 function component() {
     const element = document.createElement('div');
@@ -8,6 +9,11 @@ function component() {
     // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     element.innerHTML = "Hello Webpack Hi";
     element.classList.add('hello');
+
+    const myImage = new Image();
+    myImage.src = Icon;
+
+    element.appendChild(myImage);
 
     return element;
 }
