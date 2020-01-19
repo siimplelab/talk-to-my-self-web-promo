@@ -1,0 +1,46 @@
+footer {
+    width: 1600px;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+
+    .container {
+        width: 1200px !important;
+        flex-wrap: nowrap;
+        max-width: 1200px;
+    }
+
+    .footer-buttons {
+        
+        .btn {
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+    background: #fff;
+
+    .copyright {
+        margin-top: 2rem; 
+
+        .img-cert {
+            img {
+                width: 4.75rem;
+                height: 3.375rem;
+            }
+        }
+        .privacy {
+            margin-bottom: 0.625rem;
+
+            a {
+                color: #333;
+                font-size: 0.75rem;
+                margin-right: 1.5rem;
+            }
+        }
+        .address {
+            font-size: 0.75rem;
+            color: #000;
+            opacity: 0.5;
+            line-height: 1.4;
+        }
+    }
+}
