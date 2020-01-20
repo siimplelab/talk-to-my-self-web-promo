@@ -1,0 +1,84 @@
+.img__apple-store {
+    width: 179px;
+    height: 60px;
+}
+
+.img__google-play {
+    width: 201px;
+    height: 61px;
+}
+
+.img__screen {
+    width: 372px;
+    height: 676px;
+}
+
+.page__landing {
+    .section__top {
+        background: $c-cyan;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+
+        .logo-wrapper {
+            margin-bottom: 4rem;
+        }
+
+        .content-wrapper {
+            .text-wrapper {
+                color: #000;
+
+                .title {
+                    font-size: 2.375rem;
+                    // font-weight: bold;
+                    line-height: 1.2;
+                    margin-bottom: 1.375rem;
+                }
+
+                .desc {
+                    font-size: 1rem;
+                    line-height: 1.4;
+
+                    .sub-text {
+                        opacity: .5;
+                        display: block;
+                        margin-top: 1rem;
+                        font-size: 0.875rem;
+                    }
+                }
+
+                .small-text {
+                    margin-top: 1rem;
+                    line-height: 1.4;
+                    font-size: 1rem;
+                }
+
+                .markets {
+                    margin-top: 2rem;
+                }
+            }
+
+            .screen-wrapper {
+                position: relative;
+
+                .img-screen {
+                    // position: absolute;
+                    margin-top: -2rem;
+                    
+                    @include media-breakpoint-down(sm) {
+                        margin-top: 4rem;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .section__copyright {
+        .copyright-text {
+            margin-top: 8rem;
+            margin-bottom: 4rem;
+            color: #999;
+        }
+    }
+}
