@@ -10,17 +10,19 @@
 <meta property="og:image" content="/src/images/ttms.png">
 <link rel="shortcut icon" href="../favicon.ico">
 <link rel="stylesheet" href="../src/css/style.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
 
     
     <main role="main" class="page__landing">
-    <div class="section__top">
+    <div class="section__top" >
         <div class="container logo-wrapper">
             <div class="row">
                 <div class="col-12 text-sm-center text-left">
-                    <div class="title">
+                    <div class="title" data-aos="fade-down">
                         <strong> talk to myself</strong> to keep your life recorded
                     </div>
                 </div>
@@ -29,7 +31,7 @@
         <div class="container content-wrapper">
             <div class="row">
                 <div class="col-sm-6 col-12 text-sm-right text-left text-wrapper">
-                    <div class="desc">
+                    <div class="desc" data-aos="fade-right" data-aos-delay="300">
                         This is a very simple app to write everything for
                         yourself to make your life recorded.
                         Simply use this app to write all your personal thoughts
@@ -37,16 +39,16 @@
                         free application but has limitation - old data might be
                         erased. User registration is not required but google
                         account is needed.
-                        <div class="sub-text">
+                        <div class="sub-text" >
                             * talktomyself is a registered trademark of
                             horizon.corp. All right reserved
                         </div>
                     </div>
-                    <div class="small-text">
+                    <div class="small-text" data-aos="fade-right" data-aos-delay="600">
                         <strong> Download app from google play &
                             App Store </strong><br>(App Store is preparing)
                     </div>
-                    <div class="markets">
+                    <div class="markets" data-aos="fade-right" data-aos-delay="900">
                         <div class="apple-store mb-3">
                             <img class="img-fluid img__apple-store" src="/src/images/apple-store@2x.png" alt="Appstore">
                         </div>
@@ -56,9 +58,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-12 text-left screen-wrapper">
-                    <img class="img-fluid ml-sm-4 ml-0 mt-sm-0 mt-4 pt-sm-0 pt-4"  src="/src/images/ttms-logo.svg" alt="Logo">
+                    <img class="img-fluid ml-sm-4 ml-0 mt-sm-0 mt-4 pt-sm-0 pt-4"  src="/src/images/ttms-logo.svg" alt="Logo"  data-aos="fade-left" data-aos-delay="1200">
                     <div class="img-screen ">
-                        <img class="img-fluid img__screen" src="/src/images/ttms-screen@2x.png" alt="Screen">
+                        <img class="img-fluid img__screen" src="/src/images/ttms-screen@2x.png" alt="Screen"  data-aos="fade-left" data-aos-delay="1500">
                     </div>
                 </div>
             </div>
@@ -68,8 +70,8 @@
     <div class="section__copyright">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <p class="copyright-text">
+                <div class="col-12 text-center"  data-aos="fade-top" data-aos-delay="1800">
+                    <p class="copyright-text" >
                         © Horizon Corporation
                     </p>
                 </div>
@@ -81,6 +83,8 @@
     <script src="../src/js/jquery/dist/jquery.min.js"></script>
 <script src="../src/js/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../src/js/index.js"></script>
-
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
